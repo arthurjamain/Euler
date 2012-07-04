@@ -32,7 +32,7 @@ for(var k = 0; k < 17; k++) {
 
 // Scan D
 for(var k = 0 ; k < 17 ; k ++) {
-  for(var k = 0 ; k < 17 ; k ++) {
+  for(var h = 0 ; h < 17 ; h ++) {
     var op6 = m[k][h]*m[k+1][h+1]*m[k+2][h+2]*m[k+3][h+3];
     var op5 = m[k][h+3]*m[k+1][h+2]*m[k+2][h+1]*m[k+3][h];
     r=(op6>r)?op6:r;
